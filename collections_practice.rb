@@ -31,7 +31,6 @@ array.select { |word| word.start_with?('a') }
 end
 
 def sum_array(array)
-  sum = 0
   array.each {|i| sum += i }
 end
 
