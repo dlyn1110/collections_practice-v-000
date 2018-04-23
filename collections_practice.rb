@@ -10,23 +10,23 @@ def sort_array_char_count(arr)
   arr.sort_by(&:length)
 end
 
-def swap_elements(arr)
-  arr[1], arr[2] = arr[2], arr[1]
-  arr
+def swap_elements(array)
+  array[1], array[2] = array[2], array[1]
+  array
 end
 
-def reverse_array(arr)
-  arr.reverse!
+def reverse_array(array)
+  array.reverse!
 end
 
-def kesha_maker(arr)
-  new_arr = []
+def kesha_maker(array)
+  new_array = []
   array.each do |name|
   new_array << name[2] = "$"
  end
 end
 
-def find_a(arr)
+def find_a(array)
 arr.select { |word| word.start_with?('a') }
 end
 
