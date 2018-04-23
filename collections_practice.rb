@@ -32,8 +32,8 @@ end
 
 def sum_array(array)
   sum = 0
-  array.each do |i| sum + i 
+  array.each do |i| sum + i
 end
-
+end
 def add_s
 end
