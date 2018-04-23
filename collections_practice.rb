@@ -31,7 +31,7 @@ array.select { |word| word.start_with?('a') }
 end
 
 def sum_array(array)
-  array.each {|i| sum += i }
+  array.inject(0){|sum,x| sum + x }
 end
 
 
