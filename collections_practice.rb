@@ -2,12 +2,12 @@ def sort_array_asc(arr)
   arr.sort
 end
 
-def sort_array_desc(arr)
-  arr.sort { |x,y| y <=> x }
+def sort_array_desc(array)
+  array.sort { |x,y| y <=> x }
 end
 
-def sort_array_char_count(arr)
-  arr.sort_by(&:length)
+def sort_array_char_count(array)
+  array.sort_by(&:length)
 end
 
 def swap_elements(array)
